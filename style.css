@@ -236,6 +236,7 @@ ul li{
 
 
 .background{
+    background: #F6F5F6;
     min-height: 100vh;
     display: grid;
     place-items: center;
@@ -281,7 +282,7 @@ ul li{
 }
 
 .testimonials{
-    max-width: 1114px;
+    max-width: 69rem;
 }
 
 .testimonial{
