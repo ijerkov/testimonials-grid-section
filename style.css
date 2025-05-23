@@ -226,6 +226,9 @@ ul li{
     gap: var(--spacing-8);
 }
 
+.row-gap-6{
+    row-gap: var(--spacing-6);
+}
 
 .align-center{
     align-items: center;
@@ -284,6 +287,8 @@ ul li{
 .testimonial{
     padding: 2rem;
     border-radius: 0.5rem;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.24);
+
 }
 
 .testimonial .avatar{
