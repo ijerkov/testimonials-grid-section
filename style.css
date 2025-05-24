@@ -99,21 +99,13 @@ ul li{
     }
 
     .quote-decoration{
-        position: relative;
-        isolation: isolate;
-    }
-
-    .quote-decoration:before{
-        content: '';
-        position: absolute;
-        top: 0;
-        right: 10%;
+        --quote-width: 6.5rem;
         background-image: url("./images/bg-pattern-quotation.svg");
         background-repeat: no-repeat;
-        z-index: -1;
-        width: 6.375rem;
-        height: 6.5rem;
+        background-position: top right 15%;
+        background-size: var(--quote-width);
     }
+
 }
 
 
